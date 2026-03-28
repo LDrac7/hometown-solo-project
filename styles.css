@@ -1,0 +1,227 @@
+body {
+    margin: -20px 0 0 0;
+    font-family: "Oldenburg", serif;
+    min-width: 320px;
+}
+
+.shdw {
+    text-shadow: 0 0 6px black;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#f2b819,#fb8500);
+    text-align: center;
+    font-size: xx-large;
+    color: antiquewhite;
+}
+
+#hero-section {
+    margin: 0 0 0 0;
+    background-image: url("./images/hero-bk-img.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 600px;
+
+    font-size: 60px;
+    color: antiquewhite;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 5px black;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: large;
+    min-width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-dark-txt {
+    color: black;
+}
+
+.a-light-txt {
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color: rgb(222, 222, 221);
+}
+
+#visit-section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 60px 0 100px 0;
+}
+
+#visit-header {
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+
+.container {
+    width: 300px;
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+.container:hover {
+    background-color: rgb(222, 222, 221);
+}
+
+#map-history-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("./images/history-img1.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 700px;
+    font-size: 20px;
+    padding: 70px 20px 20px 20px;
+    min-width: 320px;
+}
+
+#history {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 50px;
+    padding: 20px 16px 20px 16px;
+    box-shadow: 0 0 5px black;
+
+}
+
+#map {
+    padding: 20px 16px 20px 16px;
+}
+
+iframe {
+    border-radius: 50px;
+}
+
+#foodie-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+
+    background-image: url("./images/foodie-img.png");
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* repeat the image */
+    background-size: cover;
+}
+
+#foodie-header {
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+    margin: 20px auto 40px auto;
+}
+
+.mini-block {
+    width: 500px;
+    height: 100px;    
+    align-items: center;
+}
+
+.foodie-link {
+    color: #fb5400;
+}
+
+.foodie-link:hover {
+    text-decoration: underline;
+}
+
+#spacing {
+    margin: 80px;
+}
+
+footer {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(#f2b819,#fb8500);
+    text-align: center;
+    font-size: xx-large;
+    color: antiquewhite;
+    font-size: larger;
+    background: linear-gradient(#2A2A2A, #181818);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-img {
+    width: 50px;
+    height: 50px;
+}
+
+#socials {
+    margin: 0;
+    padding: 2px;
+}
+
+#fb {
+    margin: 3px;
+}
+
+#insta {
+    margin: 3px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ft-link:hover {
+    text-decoration: underline;
+    color: #f2b819;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+}
